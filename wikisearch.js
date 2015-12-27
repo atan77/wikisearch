@@ -21,7 +21,7 @@ function findText() {
       for (var result in queryCards) {
         queryReturns.push(new queryOutput(queryCards[result].title, queryCards[result].snippet));
 
-        $('.results').append('<div class="returns"><a href="https://en.wikipedia.org/wiki/' + queryCards[result].title + '"target="_blank"><h3>' + queryCards[result].title + '</h3><p>' + queryCards[result].snippet + '</p></a></div><p>');
+        $('.results').append('<div class="returns"><a href="https://en.wikipedia.org/wiki/' + queryCards[result].title + '"target="_blank"><h3>' + queryCards[result].title + '</h3><p>' + queryCards[result].snippet + '</p></a></div>');
       }
     }
   });
