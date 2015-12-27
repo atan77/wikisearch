@@ -1,0 +1,16 @@
+h1 {
+  font-size: 52px;
+  text-align: center;
+  font-family: sans-serif;
+}
+.results {
+  margin-top: %;
+}
+.returns {
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  box-shadow: 5px 5px 2px #b0b0b0;
+}
+.query-entry {
+text-align: center;
+}
